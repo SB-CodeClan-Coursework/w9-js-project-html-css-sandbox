@@ -14,13 +14,30 @@ body {
   flex-wrap: wrap;
 }
 
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+  max-height: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card {
   border: 5px solid #9F9FED;
   min-width: 100%;
   min-height: 200px;
   overflow-x: auto;
   display: flex;
-
 }
 
 .card--content {
