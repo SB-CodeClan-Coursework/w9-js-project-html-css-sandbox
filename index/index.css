@@ -14,18 +14,6 @@ body {
   flex-wrap: wrap;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
 p {
   max-height: 90px;
   overflow: hidden;
@@ -38,11 +26,12 @@ p {
   min-height: 200px;
   overflow-x: auto;
   display: flex;
+  border: 5px 0px 5px 0px solid #FEF9FF;
+
 }
 
 .card--content {
   border-radius: 25px;
-  border: 5px solid #FEF9FF;
   background-color: #F2DFD7;
   min-width: 200px;
   margin: 5px;
